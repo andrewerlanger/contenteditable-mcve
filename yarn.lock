@@ -1655,9 +1655,10 @@ bytes@3.1.0:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
 
-cable_ready@5.0.0-pre0, cable_ready@hopsoft/cable_ready#master:
-  version "5.0.0-pre0"
-  resolved "https://codeload.github.com/hopsoft/cable_ready/tar.gz/cde4450f9d1bd510b1ede3f68d930d0082119875"
+cable_ready@5.0.0-pre2:
+  version "5.0.0-pre2"
+  resolved "https://registry.yarnpkg.com/cable_ready/-/cable_ready-5.0.0-pre2.tgz#c3589ebfe28a10db3998ae3711d31a072be53bfb"
+  integrity sha512-/Ql2e/Hz0kRRKzzz06sMXFm3+/qacYqSHfWkdt1CcsI7I6OOOhHzPAgY8VS+zqa/6+ggjWoPqHyi8Hr6j/0O6w==
   dependencies:
     morphdom "^2.6.1"
 
@@ -2326,6 +2327,11 @@ cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
+
+debounced@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/debounced/-/debounced-0.0.5.tgz#e540b6eebfe703d93462711b4f3562ffd101b87f"
+  integrity sha512-8Bgheu1YxQB7ocqYmK2enbLGVoo4nCtu/V6UD/SMDOeV3g2LocG2CrA5oxudlyl79Ja07UiqGdp9pWZoJn52EQ==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -6155,12 +6161,13 @@ stimulus@^2.0.0:
     "@stimulus/core" "^2.0.0"
     "@stimulus/webpack-helpers" "^2.0.0"
 
-stimulus_reflex@hopsoft/stimulus_reflex#master:
-  version "3.5.0-pre0"
-  resolved "https://codeload.github.com/hopsoft/stimulus_reflex/tar.gz/6be5bfae0e449285ee41b21fcadbdf083de8d13c"
+stimulus_reflex@3.5.0-pre2:
+  version "3.5.0-pre2"
+  resolved "https://registry.yarnpkg.com/stimulus_reflex/-/stimulus_reflex-3.5.0-pre2.tgz#ae831b557ca808a9b922bf09556837e2084099ff"
+  integrity sha512-yT8tj0VZj3lX4oA0pXfliLLExbwAuMQbIlOEXf2egtcxEOmWZ9Kc92/kT/NUkl+fVIJfR8wgEuvRFH3ECXHv5w==
   dependencies:
     "@rails/actioncable" ">= 6.0"
-    cable_ready "5.0.0-pre0"
+    cable_ready "5.0.0-pre2"
 
 stream-browserify@^2.0.1:
   version "2.0.2"

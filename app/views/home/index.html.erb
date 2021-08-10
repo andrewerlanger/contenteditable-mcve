@@ -1,5 +1,12 @@
-<button data-reflex="click->Example#test">Test</button>
+<div style="width: 100vw; display: flex; justify-content: center; margin-top: 100px;">
+  <%= render partial: "contenteditable", locals: {item: @item} %>
+</div>
 
-<% if @stimulus_reflex %>
-  <h1>Success! Random: <%= (rand * 100).to_i %></h1>
-<% end %>
+<div style="width: 350px; margin: 0 auto;">
+  <h4>Some general notes:</h4>
+  <ul style="margin-left: -22px;">
+    <li>Content is saved on (debounced) input</li>
+    <li>The unexpected behaviour kicks in when the saved content has a space character at the beginning/end of the contenteditable</li>
+    <li>You can add &lt;b> and &lt;i> tags with cmd+b / cmd+i</li>
+  </ul>
+</div>
